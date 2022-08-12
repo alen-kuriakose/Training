@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 
 body{
     font-family: Helvetica;
@@ -77,6 +79,19 @@ p{
     width: 54.125em;
 }
 
+h3.footer{
+    color: #ffffff;
+    margin: auto 0;
+    font-size: 1em;
+    opacity: 50%;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    padding: 3em 8.375em;
+}
 
 .section1{
     align-items: center;
@@ -84,7 +99,7 @@ p{
 }
 .rectangle{
     background-color: #101010;
-    margin-left: 8.375rem;
+    margin:auto 8.375rem;
     width: 48em;
     height: 20.1875em;
 
@@ -112,7 +127,7 @@ p{
 }
 
 .section4{
-    background-color: #000000;
+    background-color: #101010;
     width: 100%;
     height: 100%;
     display: block;
@@ -120,11 +135,18 @@ p{
 }
 
 .section5{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section6{
     background-color: #101010;
     width: 100%;
     height: 100%;
-}
 
+}
 .content{
     background-color: #000000;
     width: 100%;
@@ -134,21 +156,25 @@ p{
 
 }
 
+.content2{
+    background-color: #101010;
+}
+
 .card_container{
     /* width: 100%; */
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-right: 8.375em;
+    /* justify-content: space-evenly; */
+    /* margin-right: 8.375em; */
 }
 
 .cards{
     background-color: #101010;
-    width: 31.7em;
+    width: 31.5em;
     height: 14.438em;
     color: #ffffff;
-    margin:1em 1em 0 0;
+    margin:0 1em 1em 0;
 }
 
 .article_container{
@@ -176,10 +202,58 @@ p{
 .article_card{
     width: 35.75em;
     height: 23em;
-    background-color: #101010;
+    background-color: #000000;
     color: #000000;
 }
 
+.section4_content{
+    background-color: transparent;
+}
+
+.section4_card{
+    /* margin: auto 8.375em; */
+    width: 100%;
+    height: 34em;
+    background-color: #101010;
+}
+
+.s6_cards{
+    background-color: #000000;
+}
+
+.footer_list{
+    display: block;
+}
+
+.footer_container {
+    display: flex;
+}
+
+.footer_container1{
+    display: flex;
+}
+
+.footer_container2{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.footer_div{
+    text-align: left;
+}
+
+.footer_list .footer_text{
+    padding: 0 0 .25em 0;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.footer_text{
+    padding-bottom: 1em;
+}
 a:hover{
     text-decoration: underline;
     text-underline-offset: 1.75em;
